@@ -16,7 +16,7 @@ def menu_principal():
 
         match opcion:
             case 1:
-                print("Simulación tacOmetro")
+                sim_taco()
             case 2:
                 simulacion_vuelo()   # Llamada directa, sin "moduloreto."
             case 3:
